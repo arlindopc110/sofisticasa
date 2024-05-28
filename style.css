@@ -1,0 +1,156 @@
+/* Estilo do corpo */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding-top: 70px;
+    /* Espaço para o menu fixo */
+}
+
+/* Estilo do menu fixo */
+header {
+    margin: 2px 0;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: #ffffff;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 5px;
+    z-index: 1000;
+    /* Garante que o menu fique sobreposto a outros elementos */
+}
+
+.logo {
+    height: 50px;
+}
+
+.logo:hover {
+    cursor: pointer;
+}
+
+.menu-burguer {
+    display: none;
+}
+
+.nav_links_container {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
+
+hr {
+    box-shadow: #9B0202;
+    margin: 0;
+}
+
+.nav_links_container a {
+    margin: 1em;
+    font-size: 1.2em;
+    font-family: Inter, sans-serif;
+    font-weight: 500;
+    color: #9B0202;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: 0.3s;
+}
+
+.nav_links_container a:hover {
+    background-color: #9B0202;
+    color: #ffffff;
+    border-radius: 5px;
+}
+
+
+.logo_redes {
+    margin: 5px 15px;
+    height: 30px;
+    transform: all 0.8s;
+}
+
+.logo_redes:hover {
+    cursor: pointer;
+    transform: scale(110%);
+}
+
+/* Estilo do conteúdo */
+.home_cotainer {
+    width: 100%;
+    display: flex;
+    background: url(./img/agora.svg);
+    background-image: -moz-linear-gradient(#ffff);
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+.texto-pequeno {
+    font-family: Inter, sans-serif;
+    font-weight: 300;
+    font-size: 2em;
+}
+
+.texto-pequeno strong {
+    color: #9B0202;
+}
+
+.texto-grande {
+    flex-wrap: nowrap;
+    margin: 0;
+    font-family: Inter, sans-serif;
+    font-weight: 600;
+    color: #9B0202;
+    font-size: 5em;
+    margin-bottom: 0.5em;
+}
+
+.text-container {
+    margin-top: 9em;
+    margin-bottom: 9.7em;
+}
+
+.texto-home {
+    text-align: start;
+    line-height: 70px;
+}
+
+.texto-paragrafo {
+    font-weight: 200;
+    color: #000000;
+    font-size: 1.2em;
+    width: 30em;
+    line-height: 25px;
+    margin-bottom: 3em;
+}
+
+.botao_catalogo {
+    padding: 15px 20px;
+    border-radius: 8px;
+    border-color: transparent;
+    background-color: #9B0202;
+    color: #ffffff;
+    font-family: Inter, sans-serif;
+    font-weight: 500;
+    font-size: 1em;
+    transition: 0.s;
+}
+
+.botao_catalogo:hover {
+    cursor: pointer;
+    background-color: #ffffff;
+    color: #9B0202;
+}
+
+.estofado-imagem img {
+    width: 40em;
+    transition: 0.9s;
+}
+
+.estofado-imagem img:hover {
+    cursor: pointer;
+}

@@ -1,0 +1,153 @@
+@media screen and (max-width: 1218px) {
+    .texto-pequeno {
+        font-family: Inter, sans-serif;
+        font-weight: 300;
+        font-size: 2em;
+    }
+
+    .texto-grande {
+        flex-wrap: nowrap;
+        margin: 0;
+        font-family: Inter, sans-serif;
+        font-weight: 600;
+        color: #9B0202;
+        font-size: 4em;
+        margin-bottom: 0.5em;
+    }
+
+    .text-container {
+        margin-top: 10em;
+        margin-bottom: 10.5em;
+    }
+
+    .texto-home {
+        text-align: start;
+        line-height: 60px;
+    }
+}
+
+.estofado-imagem img {
+    width: 30em;
+    transition: 0.9s;
+}
+
+.estofado-imagem img:hover {
+    cursor: pointer;
+}
+
+@media screen and (max-width: 950px) {
+    .nav_links_container {
+        display: none;
+    }
+
+    .redes_container {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .menu-burguer {
+        display: block;
+    }
+
+    .home_cotainer {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .estofado-imagem img {
+        width: 20em;
+        transition: 0.9s;
+    }
+
+    .texto-pequeno {
+        font-family: Inter, sans-serif;
+        font-weight: 300;
+        font-size: 1.5em;
+    }
+
+    .texto-pequeno strong {
+        color: #9B0202;
+    }
+
+    .texto-grande {
+        flex-wrap: nowrap;
+        font-family: Inter, sans-serif;
+        font-weight: 600;
+        color: #9B0202;
+        font-size: 3.5em;
+        margin-bottom: 0.1em;
+    }
+
+    .text-container {
+        margin-top: 9em;
+        margin-bottom: 11.8em;
+    }
+
+    .texto-home {
+        text-align: start;
+        line-height: 60px;
+    }
+
+    .texto-paragrafo {
+        font-weight: 200;
+        color: #000000;
+        font-size: 1.1em;
+        width: 20em;
+        line-height: 20=5px;
+        margin-bottom: 2em;
+    }
+
+    .botao_catalogo {
+        padding: 15px 20px;
+        border-radius: 8px;
+        border-color: transparent;
+        background-color: #9B0202;
+        color: #ffffff;
+        font-family: Inter, sans-serif;
+        font-weight: 500;
+        font-size: 1em;
+        transition: 0.s;
+    }
+
+    .botao_catalogo:hover {
+        cursor: pointer;
+        background-color: #ffffff;
+        color: #9B0202;
+    }
+}
+
+@media screen and (max-width: 688px) {
+    .text-container {
+        margin-bottom: 12em;
+    }
+
+    .texto-home {
+        text-align: start;
+        line-height: 60px;
+    }
+
+    .texto-paragrafo {
+        font-weight: 200;
+        color: #000000;
+        font-size: 1.1em;
+        width: 20em;
+        line-height:25px;
+    }
+
+    .botao_catalogo {
+        padding: 15px 20px;
+        border-radius: 8px;
+        border-color: transparent;
+        background-color: #9B0202;
+        color: #ffffff;
+        font-family: Inter, sans-serif;
+        font-weight: 500;
+        font-size: 1em;
+        transition: 0.s;
+    }
+
+    .estofado-imagem {
+        display: none;
+    }
+}
