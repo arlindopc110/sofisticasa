@@ -3,9 +3,9 @@ body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     padding-top: 70px;
-    background: url(./img/agora.svg);
+    background: url(/img/fundo.png);
     background-size: cover;
-    background-repeat: no-repeat;
+    background-position: center center;
     /* Espaço para o menu fixo */
 }
 
@@ -20,6 +20,7 @@ header {
     align-items: center;
     padding: 10px 5px;
     z-index: 1000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
     /* Garante que o menu fique sobreposto a outros elementos */
 }
 
@@ -35,6 +36,10 @@ header {
     display: none;
 }
 
+.menu-mobile {
+    display: none;
+}
+
 .nav_links_container {
     list-style: none;
     display: flex;
@@ -47,7 +52,7 @@ header {
     display: none;
     display: flex;
     flex-wrap: wrap;
-    flex-direction:row;
+    flex-direction: row;
 }
 
 hr {

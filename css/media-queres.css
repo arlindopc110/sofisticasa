@@ -1,4 +1,9 @@
 @media screen and (max-width: 1218px) {
+
+    .home_container {
+        margin-top: 4.1em;
+    }
+
     .texto-pequeno {
         font-family: Inter, sans-serif;
         font-weight: 300;
@@ -48,6 +53,44 @@
 @media screen and (max-width: 950px) {
     .menu-burguer {
         display: block;
+    }
+
+    .menu-mobile {
+        text-align: center;
+        width: 50%;
+        position: fixed;
+        display: none;
+        background-color: #ffff;
+        top: 0;
+        margin-left: 12em;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    }
+
+    .menu-burguer-invertido {
+        position: block;
+        margin: 2em 0em 0 8.5em;
+    }
+
+
+    .links-mobile {
+        margin-top: 20px;
+        width: 10em;
+        height: 15em;
+        text-align: center;
+    }
+
+    .links-mobile li {
+        color: #9B0202;
+        margin: 1em 0.1em 0;
+        font-size: 1.3em;
+        font-family: Inter, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        transition: 0.9s;
+    }
+
+    .links-mobile li:hover {
+        width: 100%;
+        background-color: #9B0202;
+        color: #ffff;
     }
 
     .home_cotainer {
@@ -165,12 +208,14 @@
         background-size: auto;
         animation: moveBackground 30s linear infinite;
         background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
     }
 }
 
 @media screen and (max-width: 600px) {
 
-    body {
-        height: 75vh;
+    .home_cotainer {
+        margin-top: 2.2em;
     }
 }
