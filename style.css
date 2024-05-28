@@ -3,17 +3,19 @@ body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     padding-top: 70px;
+    background: url(./img/agora.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
     /* Espaço para o menu fixo */
 }
 
 /* Estilo do menu fixo */
 header {
-    margin: 2px 0;
     width: 100%;
     position: fixed;
     top: 0;
     background-color: #ffffff;
-    display:flex;
+    display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 10px 5px;
@@ -39,7 +41,13 @@ header {
     justify-content: space-around;
     text-align: center;
     align-items: center;
-    align-content: center;
+}
+
+.text-container {
+    display: none;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row;
 }
 
 hr {
@@ -80,13 +88,19 @@ hr {
 .home_cotainer {
     width: 100%;
     display: flex;
-    background: url(./img/agora.svg);
-    background-image: -moz-linear-gradient(#ffff);
-    background-repeat: no-repeat;
-    background-size: cover;
     align-items: center;
     text-align: center;
     justify-content: space-evenly;
+}
+
+@keyframes moveBackground {
+    from {
+        background-position: 10% 0;
+    }
+
+    to {
+        background-position: 90% 0;
+    }
 }
 
 .texto-pequeno {
@@ -110,8 +124,7 @@ hr {
 }
 
 .text-container {
-    margin-top: 9em;
-    margin-bottom: 9.7em;
+    margin-top: 8em
 }
 
 .texto-home {
@@ -126,6 +139,7 @@ hr {
     width: 30em;
     line-height: 25px;
     margin-bottom: 3em;
+    align-content: center;
 }
 
 .botao_catalogo {

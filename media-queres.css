@@ -81,7 +81,7 @@
 
     .text-container {
         margin-top: 9em;
-        margin-bottom: 11.8em;
+        margin-bottom: 11em;
     }
 
     .texto-home {
@@ -94,7 +94,7 @@
         color: #000000;
         font-size: 1.1em;
         width: 20em;
-        line-height: 20=5px;
+        line-height: 25px;
         margin-bottom: 2em;
     }
 
@@ -118,21 +118,21 @@
 }
 
 @media screen and (max-width: 688px) {
+    .home {
+        margin: 0;
+    }
+
     .text-container {
-        margin-bottom: 12em;
+        margin-top: 3em
     }
 
     .texto-home {
         text-align: start;
-        line-height: 60px;
+        margin: 0
     }
 
     .texto-paragrafo {
-        font-weight: 200;
-        color: #000000;
-        font-size: 1.1em;
-        width: 20em;
-        line-height:25px;
+        display: none;
     }
 
     .botao_catalogo {
@@ -148,6 +148,29 @@
     }
 
     .estofado-imagem {
-        display: none;
+        margin: 0;
+    }
+
+    .text-container {
+        text-align: center;
+        align-items: center;
+        display: grid;
+        grid-area: auto;
+    }
+}
+
+
+@media screen and (max-width: 1407px) {
+    body {
+        background-size: auto;
+        animation: moveBackground 30s linear infinite;
+        background-repeat: no-repeat;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    body {
+        height: 75vh;
     }
 }
