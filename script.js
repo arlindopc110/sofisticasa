@@ -1,6 +1,6 @@
-const menuMobile = document.querySelector('.menu-mobile');
-const menuBurguer = document.querySelector('.menu-burguer');
-const menuInvertidoBotao = document.querySelector('.menu-burguer-invertido');
+const menuMobile = document.querySelector('.menu_mobile');
+const menuBurguer = document.querySelector('.menu_burguer');
+const menuInvertidoBotao = document.querySelector('.menu_burguer_invertido');
 
 function mobile() {
     menuMobile.style.display = 'block';
